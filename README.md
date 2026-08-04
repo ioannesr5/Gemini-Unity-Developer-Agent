@@ -5,7 +5,7 @@
 
 A powerful, modular AI assistant deeply integrated into the Unity Editor, powered by Google Gemini models. It goes beyond simple chat by acting as an autonomous developer capable of modifying scenes, creating UIs, and refactoring C# code via AST parsing.
 
-## 🌟 核心特性 (Key Features)
+## 🌟 Key Features
 
 * **🧠 Smart Context Scanning**: Automatically scans your project's directory structure, active scene hierarchy, and selected GameObjects to provide Gemini with accurate project context.
 * **⚡ AST-Based Code Refactoring**: Uses `Microsoft.CodeAnalysis` (Roslyn) to precisely parse and modify existing C# scripts. 
@@ -14,7 +14,7 @@ A powerful, modular AI assistant deeply integrated into the Unity Editor, powere
 * **🚀 Dynamic Model Routing**: Automatically falls back and routes between Gemini Pro and Flash models based on task complexity and availability. Includes support for Gemini Context Caching for large codebases.
 * **🚨 Auto-Compile Error Monitoring**: Listens to the Unity Compilation Pipeline to detect C# errors and pass them back to the AI for self-healing suggestions.
 
-## 📦 架构概览 (Architecture)
+## 📦 Architecture
 
 The tool is built on a clean, decoupled architecture:
 * **View Layer**: `GeminiUnityAgentWindow`, `GeminiDiffViewerWindow`
